@@ -12,9 +12,10 @@ Each ```pcd file``` can be viewed uisng ```pcl_viewer <filename>.pcd```
 
 A voxel grid filter allows you to downsample the data by taking a spatial average of the points in the cloud confined by each voxel. You can adjust the sampling size by setting the voxel size along each dimension. The set of points which lie within the bounds of a voxel are assigned to that voxel and statistically combined into one output point.
 
-<p align="center">
+![Voxel](https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/ransac_pointcloud/voxel.png)
+<!-- <p align="center">
 <img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/ransac_pointcloud/voxel.png" height ="500px" width="500px"</img>
-</p>
+</p> -->
 
 ## 2. PassThrough Filter
 The Pass Through Filter works much like a cropping tool, which allows you to crop any given 3D point cloud by specifying an axis with cut-off values along that axis. The region you allow to pass through, is often referred to as region of interest.
