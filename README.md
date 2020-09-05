@@ -2,15 +2,15 @@
 This project gives the PR2 robot the ability to locate an object in a cluttered environment, pick it up and then move it to some other location. This is an interesting problem to solve and is a challenge at the forefront of the robotics industry today.
 The project uses a perception pipeline to identify target objects from a so-called “Pick-List” in that particular order, pick up those objects and place them in corresponding drop-boxes.
 
-Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation)
+Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation).
 
 <p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif height="600" width="400">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif height="600" width="400"/>
 </p>
 
 ## [Setup](#Setup)
-## [Project Heads-Up](#Project-Heads--up)
-## [Pick and place Simulate](#Pick-and-Place-Simulate)
+## [Project Heads-Up](#Project-Heads-up)
+## [Pick and Place Simulate](#Pick-and-Place-Simulate)
 
 ## Setup
 1. Move to the `/src` directory of your active ROS workspace and clone the project files.
@@ -50,7 +50,10 @@ $ ./pr2_safe_spawner.sh
 ```
 
 ## Project Heads-Up
-## Pick and place Simulate
+*To be added*
+
+
+## Pick and Place Simulate
 For this project, we have a variety of different objects to identify. There are 3 different worlds
 - test1.world
 - test2.world
@@ -72,11 +75,11 @@ and
 
 ### First World Output
 
-<p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg height="600" width="400">
+<p align= "left">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg height="600" width="400"/>
 </p>
 
-<p align= "center">
+<p align= "right">
 <img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png height="600" width="400">
 </p>
 ### Second World Output
