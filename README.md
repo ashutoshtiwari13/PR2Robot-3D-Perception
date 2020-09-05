@@ -99,16 +99,16 @@ and
 ### First World Output
 For the first world, PR2 was able to identify all 3 items which are the `soap` `sop2` and `biscuits`. See `output_1.yaml` located in the `/pr2_robot/output/`
 
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg" height="425px" width="425px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png" height="425px" width="400px"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg" height="425px" width="400px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png" height="425px" width="400px"/>
 
 ### Second World Output
 For the second world, PR2 was able to identify 5 out of 5 items which are `soap2` `book` `soap` and `biscuits` `glue`.See `output_2.yaml` located in the `/pr2_robot/output/`
 
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg" height="425px" width="425px" hspace="30" /><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj2.png" height="425px" width="400px"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg" height="425px" width="400px" hspace="30" /><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj2.png" height="425px" width="400px"/>
 
 
 ### Third World Output
 For the third world, PR2 was able to identify all 8 objects. See `output_3.yaml` located in the `/pr2_robot/output/`
 
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg" height="425px" width="425px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj3.png" height="425px" width="400px"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg" height="425px" width="400px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj3.png" height="425px" width="400px"/>
 
