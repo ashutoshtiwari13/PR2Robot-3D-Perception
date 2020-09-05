@@ -5,12 +5,12 @@ The project uses a perception pipeline to identify target objects from a so-call
 Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation).
 
 <p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif height="600" width="400"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif height="600px" width="400px"/>
 </p>
 
-## [Setup](#Setup)
-## [Project Heads-Up](#Project-Heads-up)
-## [Pick and Place Simulate](#Pick-and-Place-Simulate)
+### [Setup](#Setup)
+### [Project Heads-Up](#Project-Heads-Up)
+### [Pick and Place Simulate](#Pick-and-Place-Simulate)
 
 ## Setup
 1. Move to the `/src` directory of your active ROS workspace and clone the project files.
@@ -51,7 +51,9 @@ $ ./pr2_safe_spawner.sh
 
 ## Project Heads-Up
 *To be added*
-
+<p align= "center">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/pr2-demo.png height="600px" width="400px"/>
+</p>
 
 ## Pick and Place Simulate
 For this project, we have a variety of different objects to identify. There are 3 different worlds
@@ -76,18 +78,26 @@ and
 ### First World Output
 
 <p align= "left">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg height="600" width="400"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg height="600px" width="400px"/>
 </p>
 
 <p align= "right">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png height="600" width="400">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png height="600px" width="400px">
 </p>
 ### Second World Output
-<p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg height="600" width="400">
+<p align= "left">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg height="600px" width="400px">
+</p>
+
+<p align= "right">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj2.png height="600px" width="400px">
 </p>
 
 ### Third World Output
-<p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg height="600" width="400">
+<p align= "left">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg height="600px" width="400px">
+</p>
+
+<p align= "right">
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj3.png height="600px" width="400px">
 </p>
