@@ -5,11 +5,11 @@ The project uses a perception pipeline to identify target objects from a so-call
 Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation).
 
 <p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif height="600px" width="400px"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif" height="700px" width="900px"/>
 </p>
 
 ### [Setup](#Setup)
-### [Project Heads-Up](#Project-Heads-Up)
+### [Project Heads-Up](#Project-Heads--Up)
 ### [Pick and Place Simulate](#Pick-and-Place-Simulate)
 
 ## Setup
@@ -52,7 +52,7 @@ $ ./pr2_safe_spawner.sh
 ## Project Heads-Up
 *To be added*
 <p align= "center">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/pr2-demo.png height="600px" width="400px"/>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/pr2-demo.png" height="500px" width="500px"/>
 </p>
 
 ## Pick and Place Simulate
@@ -76,28 +76,18 @@ and
 ```
 
 ### First World Output
+For the first world, PR2 was able to identify all 3 items which are the `soap` `sop2` and `biscuits`. See `output_1.yaml` located in the `/pr2_robot/output/`
 
-<p align= "left">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg height="600px" width="400px"/>
-</p>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world1.jpg" height="425px" width="425px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png" height="425px" width="400px"/>
 
-<p align= "right">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj1.png height="600px" width="400px">
-</p>
 ### Second World Output
-<p align= "left">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg height="600px" width="400px">
-</p>
+For the second world, PR2 was able to identify 5 out of 5 items which are `soap2` `book` `soap` and `biscuits` `glue`.See `output_2.yaml` located in the `/pr2_robot/output/`
 
-<p align= "right">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj2.png height="600px" width="400px">
-</p>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world2.jpg" height="425px" width="425px" hspace="30" /><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj2.png" height="425px" width="400px"/>
+
 
 ### Third World Output
-<p align= "left">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg height="600px" width="400px">
-</p>
+For the third world, PR2 was able to identify all 8 objects. See `output_3.yaml` located in the `/pr2_robot/output/`
 
-<p align= "right">
-<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj3.png height="600px" width="400px">
-</p>
+<img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/world3.jpg" height="425px" width="425px" hspace="30"/><img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/obj3.png" height="425px" width="400px"/>
+
