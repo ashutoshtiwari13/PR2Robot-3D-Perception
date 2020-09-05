@@ -8,9 +8,9 @@ Note : The perception pipeline for this project is explained in PART1 and PART2 
 <img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif" height="700px" width="900px"/>
 </p>
 
-### [Setup](#Setup)
-### [Project Heads-Up](#Project-Heads--Up)
-### [Pick and Place Simulate](#Pick-and-Place-Simulate)
+### 1. [Setup](#Setup)
+### 2. [Project Heads Up](#Project-Heads-Up)
+### 3. [Pick and Place Simulate](#Pick-and-Place-Simulate)
 
 ## Setup
 1. Move to the `/src` directory of your active ROS workspace and clone the project files.
@@ -49,11 +49,32 @@ $ chmod u+x pr2_safe_spawner.sh
 $ ./pr2_safe_spawner.sh
 ```
 
-## Project Heads-Up
-*To be added*
+## Project Heads Up
 <p align= "center">
 <img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/pr2-demo.png" height="500px" width="500px"/>
 </p>
+
+- PART1 of the repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation) explains the methods used for Segmentation of the different items at the table top using point cloud library.
+- PART2 of the above repo uses SVM algorithm to train the classfier to detect objects and both together form what we call a Perception pipeline.
+- `pcl_callback()` is the function that will be called back every time a message is published to `/pr2/world/points` topic. This function has the 3D point cloud perception pipeline, object detection, and a call to the PR2 mover function.
+- Last part of pcl_callback() function is to call the PR2 mover to pick and place detected objects.
+```sh
+  if len(detected_objects)>0:
+        try:
+            pr2_mover(detected_objects)
+        except rospy.ROSInterruptException:
+            pass
+    else:
+        rospy.logwarn('No detected objects !!!')
+```
+- `pr2_mover` is the main fucntion controlling the PR2 Arm
+It performs the following major fucntions
+   - Initializes variables including ROS messages.
+   - Get Parameters for ROS parameters server by reading objects list and drop box data from ROS parameters server.
+   - Rotate PR2 in place to capture side tables for the collision map. This is to rotate PR2 to capture side tables data to avoid collision.
+   - Calculate objects Centroid (x,y,z) of each detected object based on its points array.
+   - Loop through the pick list. In this loop each object is picked from the pick-list we received through ROS parameter server and match it to one of the detected objects to decide on pick pose, place pose, and arm name and write all data to yaml file.
+   - Writing the yaml files to disk
 
 ## Pick and Place Simulate
 For this project, we have a variety of different objects to identify. There are 3 different worlds
