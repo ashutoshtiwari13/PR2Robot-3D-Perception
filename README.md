@@ -1,8 +1,8 @@
-## PR2 Robot 3D Perception
+## PR2 Robot 3D Perception with MoveIt! Motion planning framework
 This project gives the PR2 robot the ability to locate an object in a cluttered environment, pick it up and then move it to some other location. This is an interesting problem to solve and is a challenge at the forefront of the robotics industry today.
 The project uses a perception pipeline to identify target objects from a so-called “Pick-List” in that particular order, pick up those objects and place them in corresponding drop-boxes.
 
-Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation).
+Note : The perception pipeline for this project is explained in PART1 and PART2 of another repo [here](https://github.com/ashutoshtiwari13/ROS-PCL-Segmentation). The Moveit!Motion planning framework source files can be found in the `pr2_moveit` directory.
 
 <p align= "center">
 <img src="https://github.com/ashutoshtiwari13/PR2Robot-3D-Perception/blob/master/pr2_robot/run/PR2.gif" height="700px" width="900px"/>
